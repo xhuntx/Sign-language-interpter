@@ -4,7 +4,7 @@ import numpy as np
 import mediapipe as mp
 from sklearn.model_selection import train_test_split
 
-DATASET_PATH = "model/Training/1-10"
+DATASET_PATH = "model/Training"
 OUTPUT_DIR = "processed_dataset"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
